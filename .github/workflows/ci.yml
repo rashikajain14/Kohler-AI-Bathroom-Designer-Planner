@@ -1,0 +1,17 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - run: npm run build
+      - run: npm run typecheck
+      - run: npx vitest run
+      - name: Browser end-to-end
+        run: |
+          npx playwright install --with-deps chromium
+          CHROME_PATH=$(node -e "console.log(require('playwright-core').chromium.executablePath())") npm run smoke

@@ -1,0 +1,17 @@
+# Render Blueprint: New > Blueprint > pick this repo. Add ANTHROPIC_API_KEY and ADMIN_PASSWORD in the dashboard.
+services:
+  - type: web
+    name: kohler-bathroom-designer
+    runtime: docker
+    plan: starter            # a persistent disk needs a paid instance
+    healthCheckPath: /healthz
+    disk:
+      name: study-data
+      mountPath: /data
+      sizeGB: 1
+    envVars:
+      - { key: STUDY_MODE, value: "true" }
+      - { key: TRUST_PROXY, value: "1" }
+      - { key: ALLOW_CONDITION_OVERRIDE, value: "false" }
+      - { key: ANTHROPIC_API_KEY, sync: false }
+      - { key: ADMIN_PASSWORD, sync: false }

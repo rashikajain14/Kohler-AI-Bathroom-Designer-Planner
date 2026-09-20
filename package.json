@@ -1,0 +1,40 @@
+{
+  "name": "kohler-bathroom-designer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kohler AI Bathroom Designer — research platform (solver + web app + study backend)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build:client": "node client/build.mjs",
+    "build:server": "tsc -p tsconfig.json",
+    "build": "npm run build:client && npm run build:server",
+    "start": "node dist/server/src/index.js",
+    "dev": "npm run build:client && tsx watch server/src/index.ts",
+    "test": "npm run build:client && vitest run",
+    "benchmark": "npm run build:client && node benchmark/run.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.127.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@fontsource-variable/bodoni-moda": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.2",
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.63.0",
+    "three": "^0.128.0",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.1"
+  }
+}

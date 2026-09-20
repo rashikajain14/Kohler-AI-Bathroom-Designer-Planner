@@ -1,0 +1,332 @@
+{
+  "version": "1.0.0",
+  "currency": "INR",
+  "note": "Replace prices, dimensions and images with the official Kohler catalog data supplied for the study. Every session stores this version and hash.",
+  "products": [
+    {
+      "id": "veil",
+      "cat": "Smart Toilet",
+      "name": "KOHLER Veil® Intelligent Toilet",
+      "price": 85000,
+      "art": "toilet",
+      "desc": "Wall-hung intelligent toilet with heated seat, warm-air dryer and a fully skirted, tankless silhouette.",
+      "specs": [
+        "Tankless",
+        "Heated seat",
+        "Auto flush",
+        "Remote"
+      ],
+      "tag": "smart",
+      "image": null
+    },
+    {
+      "id": "awaken",
+      "cat": "Rain Shower",
+      "name": "KOHLER Awaken® Shower System",
+      "price": 42000,
+      "art": "shower",
+      "desc": "Overhead rain plate paired with a handshower and slide bar — two spray patterns, easy-clean nozzles.",
+      "specs": [
+        "Rain + hand",
+        "2 sprays",
+        "Chrome"
+      ],
+      "tag": "shower",
+      "image": null
+    },
+    {
+      "id": "hint",
+      "cat": "Faucet",
+      "name": "KOHLER Hint® Single Handle Faucet",
+      "price": 18000,
+      "art": "faucet",
+      "desc": "A single, confident arc. Ceramic disc valve and a lever that lands exactly where your wrist expects it.",
+      "specs": [
+        "Single lever",
+        "Ceramic disc",
+        "Aerated"
+      ],
+      "tag": "faucet",
+      "image": null
+    },
+    {
+      "id": "verderaV",
+      "cat": "Vanity",
+      "name": "KOHLER Verdera® Wall Hung Vanity",
+      "price": 32000,
+      "art": "vanity",
+      "desc": "Floating two-drawer vanity, leaving the floor visible so a small room reads larger.",
+      "specs": [
+        "Wall hung",
+        "2 drawers",
+        "Soft close"
+      ],
+      "tag": "vanity",
+      "image": null
+    },
+    {
+      "id": "verderaM",
+      "cat": "Mirror",
+      "name": "KOHLER Verdera® LED Mirror",
+      "price": 12000,
+      "art": "mirror",
+      "desc": "Backlit LED mirror with an anti-fog zone and even, shadow-free light across the face.",
+      "specs": [
+        "LED backlit",
+        "Anti-fog",
+        "IP44"
+      ],
+      "tag": "mirror",
+      "image": null
+    },
+    {
+      "id": "reve",
+      "cat": "Smart Toilet",
+      "name": "KOHLER Rêve® Skirted Toilet",
+      "price": 46000,
+      "art": "toilet",
+      "desc": "A French-designed skirted one-piece with clean contours and a quiet, class-leading flush.",
+      "specs": [
+        "One-piece",
+        "Skirted",
+        "Quiet flush"
+      ],
+      "tag": "smart",
+      "image": null
+    },
+    {
+      "id": "artshower",
+      "cat": "Rain Shower",
+      "name": "KOHLER Artifacts® Bath & Shower",
+      "price": 68000,
+      "art": "shower",
+      "desc": "Period-inspired cross handles and a generous rain head in a warm brushed-brass finish.",
+      "specs": [
+        "Brushed brass",
+        "Thermostatic",
+        "Cross handle"
+      ],
+      "tag": "shower",
+      "image": null
+    },
+    {
+      "id": "artfaucet",
+      "cat": "Faucet",
+      "name": "KOHLER Artifacts® Widespread Faucet",
+      "price": 31000,
+      "art": "faucet",
+      "desc": "Three-hole widespread set with a swing spout — the detail that makes a vanity look commissioned.",
+      "specs": [
+        "Widespread",
+        "Swing spout",
+        "Brass"
+      ],
+      "tag": "faucet",
+      "image": null
+    },
+    {
+      "id": "damais",
+      "cat": "Vanity",
+      "name": "KOHLER Damais™ Vanity",
+      "price": 39000,
+      "art": "vanity",
+      "desc": "Fluted-front cabinet with a stone-look top, sized for a couple sharing a compact bathroom.",
+      "specs": [
+        "Fluted front",
+        "Stone top",
+        "Deep basin"
+      ],
+      "tag": "vanity",
+      "image": null
+    },
+    {
+      "id": "mirrorcab",
+      "cat": "Mirror",
+      "name": "KOHLER Verdera® Mirror Cabinet",
+      "price": 12000,
+      "art": "mirror",
+      "desc": "Mirror and storage in the same footprint — adjustable glass shelves behind a full-length mirrored door.",
+      "specs": [
+        "Storage",
+        "Adjustable shelves"
+      ],
+      "tag": "mirror",
+      "image": null
+    },
+    {
+      "id": "karess",
+      "cat": "Smart Toilet",
+      "name": "KOHLER Karess™ Wall-Hung Toilet",
+      "price": 52000,
+      "art": "toilet",
+      "desc": "Minimal wall-hung bowl on a concealed cistern, floating clear of the floor for effortless cleaning.",
+      "specs": [
+        "Wall-hung",
+        "Concealed cistern"
+      ],
+      "tag": "smart",
+      "image": null
+    },
+    {
+      "id": "statement",
+      "cat": "Rain Shower",
+      "name": "KOHLER Statement™ Rain Column",
+      "price": 44000,
+      "art": "shower",
+      "desc": "A single column carrying rain head, handshower and diverter — no wall chasing required.",
+      "specs": [
+        "Column",
+        "Diverter",
+        "Matte black"
+      ],
+      "tag": "shower",
+      "image": null
+    },
+    {
+      "id": "components",
+      "cat": "Faucet",
+      "name": "KOHLER Components® Faucet",
+      "price": 21000,
+      "art": "faucet",
+      "desc": "Choose your spout and handle. Industrial geometry, softened by a lever that moves like silk.",
+      "specs": [
+        "Modular",
+        "Lever",
+        "Matte"
+      ],
+      "tag": "faucet",
+      "image": null
+    },
+    {
+      "id": "maxispace",
+      "cat": "Vanity",
+      "name": "KOHLER Maxispace™ Vanity",
+      "price": 26000,
+      "art": "vanity",
+      "desc": "Shallow-depth cabinet built for narrow rooms — the drawers reclaim the space a basin usually wastes.",
+      "specs": [
+        "Shallow depth",
+        "Space saving"
+      ],
+      "tag": "vanity",
+      "image": null
+    },
+    {
+      "id": "essential",
+      "cat": "Mirror",
+      "name": "KOHLER Essential™ Mirror",
+      "price": 11000,
+      "art": "mirror",
+      "desc": "A frameless rectangle with a bevelled edge. Nothing to notice, which is the point.",
+      "specs": [
+        "Frameless",
+        "Bevelled"
+      ],
+      "tag": "mirror",
+      "image": null
+    },
+    {
+      "id": "underscore",
+      "cat": "Bathtub",
+      "name": "KOHLER Underscore® Built-in Bath",
+      "price": 58000,
+      "art": "bath",
+      "desc": "A deep alcove bath with a slotted overflow, sized to fit between two walls without a filler panel.",
+      "specs": [
+        "Alcove",
+        "Deep soak",
+        "Slotted overflow"
+      ],
+      "tag": "bath",
+      "image": null
+    },
+    {
+      "id": "evok",
+      "cat": "Bathtub",
+      "name": "KOHLER Evok™ Freestanding Bath",
+      "price": 96000,
+      "art": "bath",
+      "desc": "Freestanding acrylic with a rolled rim, thin enough at the edge to look like stone, light enough to lift.",
+      "specs": [
+        "Freestanding",
+        "Rolled rim",
+        "Acrylic"
+      ],
+      "tag": "bath",
+      "image": null
+    },
+    {
+      "id": "linen",
+      "cat": "Storage",
+      "name": "KOHLER Verdera® Linen Tower",
+      "price": 21000,
+      "art": "storage",
+      "desc": "Full-height tower with four adjustable shelves and a soft-close door, only 18 in deep.",
+      "specs": [
+        "4 shelves",
+        "Soft close",
+        "18 in deep"
+      ],
+      "tag": "storage",
+      "image": null
+    },
+    {
+      "id": "maxitall",
+      "cat": "Storage",
+      "name": "KOHLER Maxispace™ Tall Unit",
+      "price": 17000,
+      "art": "storage",
+      "desc": "Narrow tall unit for rooms where the only spare space is 16 in wide.",
+      "specs": [
+        "Narrow",
+        "Mirror back",
+        "Adjustable"
+      ],
+      "tag": "storage",
+      "image": null
+    },
+    {
+      "id": "railA",
+      "cat": "Accessories",
+      "name": "KOHLER Avid™ Towel Rail",
+      "price": 6500,
+      "art": "rack",
+      "desc": "A 24 in rail with concealed fixings and a flat back plate that sits tight to the tile.",
+      "specs": [
+        "24 in",
+        "Concealed fixing"
+      ],
+      "tag": "acc",
+      "image": null
+    },
+    {
+      "id": "railB",
+      "cat": "Accessories",
+      "name": "KOHLER Artifacts® Towel Bar",
+      "price": 9800,
+      "art": "rack",
+      "desc": "Turned brass posts and a solid bar — the version that survives being leaned on.",
+      "specs": [
+        "Solid brass",
+        "24 in"
+      ],
+      "tag": "acc",
+      "image": null
+    },
+    {
+      "id": "fan1",
+      "cat": "Ventilation",
+      "name": "KOHLER Quiet Exhaust Fan",
+      "price": 8500,
+      "art": "fan",
+      "desc": "Ducted extract rated for a 50 sq ft room at under 1 sone, with a humidity sensor.",
+      "specs": [
+        "Humidity sensor",
+        "<1 sone",
+        "Ducted"
+      ],
+      "tag": "vent",
+      "image": null
+    }
+  ]
+}

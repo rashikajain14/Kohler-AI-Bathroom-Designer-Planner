@@ -1,0 +1,14 @@
+services:
+  app:
+    build: .
+    ports: ["3000:3000"]
+    env_file: .env
+    environment:
+      DATABASE_PATH: /data/app.db
+    volumes:
+      - study-data:/data
+      # mount your own study file to change tasks, consent text or the questionnaire without rebuilding:
+      # - ./study.config.json:/app/study.config.json:ro
+    restart: unless-stopped
+volumes:
+  study-data:
