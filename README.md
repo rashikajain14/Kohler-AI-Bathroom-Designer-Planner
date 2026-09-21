@@ -1,4 +1,4 @@
-# Kohler AI Bathroom Designer — research platform
+# AI Bathroom Designer — research platform
 
 A bathroom-planning web app built around a deterministic layout solver — not a template gallery — plus
 a full study backend (consent, balanced conditions, timed tasks, SUS questionnaire, event logging, and
